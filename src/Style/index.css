@@ -1,0 +1,96 @@
+#IndexComp {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  #IndexComp .comt {
+    width: 750px;
+    height: auto;
+    margin: 150px auto 0;
+  }
+  #IndexComp .comt .logo {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    background: url("../Image/react.png") no-repeat center;
+    background-size: 100%;
+  }
+  #IndexComp .comt .title {
+    float: right;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 50px;
+    color: #00a0a0;
+  }
+  #IndexComp .comt .git {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #IndexComp .comt .git span {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 0 20px;
+  }
+  #IndexComp .comt .git span a {
+    display: inline-block;
+    background: #00a0a0;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  #IndexComp .comt .git .author {
+    background: #003b3b;
+  }
+  #IndexComp .comt .git .author_name {
+    background: #00a0a0;
+  }
+  #IndexComp .comt .icon {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #IndexComp .comt .icon img {
+    display: inline-block;
+    margin: 20px 5px 0;
+  }
+  
+  @media screen and (max-width: 749px) {
+    #IndexComp {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    #IndexComp .comt {
+      width: 90%;
+      margin: 20px auto 0;
+      text-align: center;
+    }
+    #IndexComp .logo {
+      position: absolute;
+      top: 0;
+      left: -15px;
+      right: 0;
+      margin: 0 auto;
+    }
+    #IndexComp .title {
+      position: absolute;
+      top: 150px;
+      left: 0;
+      width: 100%;
+    }
+    #IndexComp .git {
+      position: absolute;
+      top: 300px;
+      left: 0;
+    }
+    #IndexComp .git span {
+      margin: 5px 5px;
+    }
+    #IndexComp .icon {
+      position: absolute;
+      top: 400px;
+      left: 0;
+    }
+  }
